@@ -1,0 +1,194 @@
+.containerService {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.cardService {
+  width: 48%; /* Adjust width as needed for different screen sizes */
+  height: 50%;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 1%; /* Reduced padding */
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.cardService-img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 10px; /* Reduced margin */
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.9);
+}
+
+.cardService-details {
+  text-align: center;
+  padding: 10px; /* Reduced padding */
+}
+
+.cardService-details h3 {
+  font-size: 24px; /* Adjusted font size */
+  font-weight: 600;
+  color: #32d0f7;
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.cardService-details p {
+  color: rgb(10, 10, 10);
+  font-weight: 500;
+  font-size: medium;
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.cat1 .cat2 .cat3 .cat4 {
+  width: 23%;
+  height: 240px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.aboutUsImage {
+  margin-top: 20%;
+}
+
+.aboutUsOne {
+  margin-left: 25%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .cardService {
+    width: 45%; /* Adjust width for medium screens */
+  }
+  .aboutUsImage {
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardService {
+    width: 100%; /* Full width for small screens */
+  }
+  .aboutUsImage {
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardService-details h3 {
+    font-size: 20px; /* Smaller heading size for very small screens */
+  }
+
+  .cardService-details p {
+    font-size: small; /* Smaller text size for very small screens */
+  }
+
+  .aboutUsImage {
+    margin-top: 2%;
+  }
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  aspect-ratio: 7 / 4; /* Maintains aspect ratio */
+}
+
+.wrapper .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.wrapper .img img {
+  height: 115%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .wrapper .sliders {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  display: flex;
+}
+
+.wrapper .sliders label {
+  border: 2px solid rgb(142, 197, 252);
+  width: 13px;
+  height: 13px;
+  margin: 0 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} */
+
+.sliders label:hover {
+  background: rgb(142, 197, 252);
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .wrapper .img img {
+    width: 100%;
+  }
+
+  .wrapper .sliders {
+    bottom: 10px;
+  }
+
+  .wrapper .sliders label {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .wrapper .img img {
+    width: 100%;
+  }
+
+  .wrapper .sliders {
+    bottom: 5px;
+  }
+
+  .wrapper .sliders label {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+.cardServices {
+  width: 115%;
+  padding: 1%;
+}
+
+.cardServices2 {
+  margin-top: 35%;
+  width: 115%;
+  padding: 1%;
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+ 
+     <!-- Site Metas -->
+    <title>Saiflonix</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="./images/logos/saiflonixTitle.jpg" type="image/x-icon" />
+    <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+        var video = document.getElementById("video_AboutUs");
+      
+        // Add event listener for when the video ends
+        video.addEventListener("ended", function() {
+          // Change the poster attribute to the desired image once the video ends
+          video.currentTime = 0;
+        });});
+    </script>
+
+</head>
+<body>
+    
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__ball"></div>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    
+	
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image" style="margin-top: -5%;"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	<div class="slider-area">
+		<div class="slider-wrapper owl-carousel">
+			<div class="slider-item home-one-slider-otem slider-item-four slider-bg-one">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h2 class="homepage-three-title">Onestep Solution For All <br>Hydraulics System </h2>
+								<h3>Increase machine efficiency with original spares and services</h3>
+								<div class="slider-content-btn">
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-two">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h2 class="homepage-three-title">Onestep Solution For All <br> Hydraulics System </h2>
+								<h3>Increase machine efficiency with original spares and services</h3>
+								<div class="slider-content-btn">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item home-one-slider-otem slider-item-four slider-bg-three">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h2 class="homepage-three-title">Onestep Solution For All <br> Hydraulics System </h2>
+								<h3>Increase machine efficiency with original spares and services</h3>
+								<div class="slider-content-btn">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>About Us</h4>
+                        <h2>Welcome to Saiflonix</h2>
+                        <p class="lead">Established in 2023, Saiflonix Hydraulics Pvt Ltd specializes in repair and servicing solutions for top hydraulic brands like Rexroth, Danfoss, Kawasaki, Parker, Eaton, Bondioli & Pavesi, and Yuken. Our 2000 sq ft facility in Bhubaneswar City is fully equipped to handle diverse hydraulic components, ensuring efficiency and reliability. With over 15 years of industry experience, our skilled team delivers comprehensive solutions, from inspecting and repairing Axial Piston Units to testing On-Off Valves and Small Cylinders. Committed to minimizing downtime and maximizing performance. we also provide genuine spare parts, field assistance, and training, driving success in hydraulic operations. Trust Saiflonix for hydraulic excellence.</p>
+
+                        <a href="uploads/Saiflonix Flyer .pdf" class="btn btn-light btn-radius btn-brd grd1" download="Saiflonix.pdf">Learn More</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6" >
+                    <div class="post-media wow fadeIn" style="margin-top:15%;">
+                                               
+                        <video id="video_AboutUs" class="img-responsive img-rounded" controls preload="metadata" display="none">
+                            <source src="uploads/aboutUs.mp4" type="video/mp4" class="playbutton" >
+                          Your browser does not support the video tag.
+                        </video>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <hr class="hr1"> 
+
+            <div class="row">
+				<div class="col-md-6">
+                   
+
+                    <div class="wrapper">
+                        <input type="radio" name="slide" id="one" checked>
+                        <input type="radio" name="slide" id="two">
+                        <input type="radio" name="slide" id="three">
+                        <input type="radio" name="slide" id="four">
+                        <input type="radio" name="slide" id="five">
+                        <div class="img img-1">
+                            <img src="uploads/Directors/1.png" alt="">
+                            <div class="cardService-details">
+                                <h3>Pankaj Kumar Singh</h3>
+                                <p>Director After Market Service & Sales For Industrial Hydraulics.</p>
+                            </div>
+                        </div>
+                        <div class="img img-2">
+                            <img src="uploads/Directors/2.png" alt="">
+                            <div class="cardService-details">
+                                <h3>Subhasis Mishra</h3>
+                                <p>Director After Market Service, Engineering & Sales.</p>
+                            </div>
+                        </div>
+                        <div class="img img-3">
+                            <img src="uploads/Directors/3.png" alt="">
+                            <div class="cardService-details">
+                                <h3>Amulya Kumar Mohanty</h3>
+                                <p>Director Service Centre & Field Service Operations.</p>
+                            </div>
+                        </div>
+                      
+                        <div class="sliders">
+                          <label for="one" class="one"></label>
+                          <label for="two" class="two"></label>
+                          <label for="three" class="three"></label>
+
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>Who We are</h4>
+                        <h2>Saiflonix: Seamless Solutions for Hydraulic Needs</h2>
+                        <p class="lead">With over 15 years of collective experience at Rexroth, Saiflonix Directors have immersed themselves in diverse roles spanning Service, Application, Commissioning, and Sales departments. Our profound expertise in both mobile and industrial hydraulics has endowed us with a comprehensive understanding of various applications and their intricacies. This wealth of experience enables us to provide unparalleled insights and know-how, empowering us to deliver exceptional solutions tailored to meet the unique needs of our clients.</p>
+                        <a href="uploads/Saiflonix Flyer .pdf" class="btn btn-light btn-radius btn-brd grd1" download="Saiflonix.pdf">Learn More</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="services" class="parallax section lb">
+        <div>
+            <div class="section-title text-center">
+                <h3>Our Service</h3>
+                <p class="lead">Introducing our comprehensive services: <b>Training, Spare Parts, Repair & Testing, and Field Support </b> . From tailored training programs to genuine spare parts, meticulous repair & testing, and dedicated field support, we ensure seamless hydraulic operations.</p>
+            </div><!-- end title -->
+            
+            <div class="containerService">
+                <div class="cardService">
+                    <img src="uploads/Services/service_01.jpg" alt="Image 1" class="cardService-img">
+                    <div class="cardService-details">
+                        <h3>Training</h3>
+                        <p>We provide tailored training on Axial Piston units, General Hydraulic Maintenance, Commissioning, and Troubleshooting to optimize operational proficiency.</p>
+                    </div>
+                </div>
+                <div class="cardService">
+                    <img src="uploads/Services/service_02.jpg" alt="Image 2" class="cardService-img">
+                    <div class="cardService-details">
+                        <h3>Spares</h3>
+                        <p>We provide genuine spare parts sourced from multiple manufacturers, aiming to extend product lifespan and minimize downtime for uninterrupted operations.</p>
+                    </div>
+                </div>
+                <div class="cardService">
+                    <img src="uploads/Services/service_03.jpg" alt="Image 3" class="cardService-img">
+                    <div class="cardService-details">
+                        <h3>Repair & Testing</h3>
+                        <p>Utilizing a 132KW power test bench at 3000 input RPM with VFT drive optimizes testing. Additionally, cannibalization strategies manage customer inventory efficiently.</p>
+                    </div>
+                </div>
+                <div class="cardService">
+                    <img src="uploads/Services/service_04.jpg" alt="Image 4" class="cardService-img">
+                    <div class="cardService-details">
+                        <h3>Field Support</h3>
+                        <p>Drawing from our expertise, we're delighted to assist you with commissioning, troubleshooting, and addressing chronic issues in your existing installations.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a data-scroll href="portfolio.html" class="btn btn-light btn-radius btn-brd">View Our Portfolio</a>
+            </div>
+            
+        
+        </div>
+    </div>
+
+    <div class="parallax section noover" data-stellar-background-ratio="0.7" style="background-image:url('uploads/parallax_05.png');">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="customwidget text-left">
+                        <h1>Saiflonix</h1>
+                        <p>Unleash Hydraulic Excellence - Where Training, Parts, Repair & Testing, and Field Support Converge. Empower Your Operations with Our Comprehensive Hydraulic Solutions. Elevate Performance Seamlessly with Our Range of Services.</p>
+                        <ul class="list-inline">
+                            <li><i class="fa fa-check"></i> Training</li>
+                            <li><i class="fa fa-check"></i> Spares</li>
+                            <li><i class="fa fa-check"></i> Repair & Testing</li>
+                            <li><i class="fa fa-check"></i> Field Support</li>
+                        </ul><!-- end list -->
+                        <a href="uploads/Saiflonix Flyer .pdf" data-scroll class="btn btn-light btn-radius btn-brd" download="Saiflonix.pdf">Learn More</a>
+                    </div>
+                </div><!-- end col -->
+				<div class="col-md-6">
+                    <div class="text-center image-center hidden-sm hidden-xs">
+                        <img src="uploads/device_03.png" alt="" class="img-responsive wow fadeInUp">
+                    </div>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">Saiflonix Hydraulics Pvt. Ltd.</a> </p>
+                </div>
+
+                
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>    
+
+</body>
+</html>
